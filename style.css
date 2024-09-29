@@ -1,0 +1,205 @@
+/* margin reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", "Nonito", sans-serif;
+}
+
+/* Header Panel Styling */
+.headerpanel {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 170px;
+}
+.headerbar {
+    /* border: 1px solid; */
+    display: flex;
+    margin-bottom: 70px;
+}
+.headerpanellinks {
+    display: flex;
+    gap: 40px; 
+    align-self: center;
+    /* border: 2px solid yellow; */
+    margin-left: auto;
+    /* justify-items: flex-end; */
+}
+
+.headerpanel a {
+    text-decoration: none;
+}
+.headerpanel li {
+    list-style: none;
+}
+.headerpanel, 
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.headerbar div {
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.headerpanel a, 
+.headerpanel h3 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headerpanel h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.headerpanelcontent {
+    display: flex;
+}
+.headerimage img {
+    height: auto;
+    width: 25%;
+}
+
+button, .actionbox {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+/* Info Panel Styling */
+.infopanel {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.infotitle h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    align-self: center;
+    margin-bottom: 40px;
+}
+.infoboxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 80px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    
+}
+
+.infobox .text {
+    display: flex;
+    /* border: 1px solid; */
+    text-wrap: wrap;
+    max-width: 180px;
+    color: #1f2937;
+    padding-top: 10px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.infobox img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 6px;
+    
+
+}
+
+/* Quote Panel Styling */
+.quotepanel {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    /* border: 1px solid black; */
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.author {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+
+/* Action Panel Styles */
+.actionpanel {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.actionbox {
+    display:flex;
+    width: 80%;
+    height: 60%;
+    border-radius: 12px;
+    padding: 10px 30px; 
+    justify-content: space-around;
+}
+
+.actionbox .text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    /* padding-left: 100px; */
+    gap: 10px;
+    
+}
+
+.text h4 {
+    font-size: 20px;
+    text-decoration: underline 4px solid;
+}
+.text h6 {
+    font-size: 16px;
+}
+
+.actionbutton {
+    display: flex;
+    /* border: 1px solid yellow; */
+    width: 30%;
+    justify-content: center;
+    /* max-height: ; */
+    align-items: center;
+}
+
+.actionbutton button {
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+/* Footer Styling */
+.footer {
+    display: flex;
+    font-size: x-small;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}

@@ -13,3 +13,5 @@ Photo Credits:
 #4 - Photo by <a href="https://unsplash.com/@kingschurchinternational?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">King's Church International</a> on <a href="https://unsplash.com/photos/police-standing-on-road-3mjspmQDM_M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 #5 - Photo by RDNE Stock project: https://www.pexels.com/photo/close-up-shot-of-a-hood-of-a-car-6519848/
+
+#6 - Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=303443">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=303443">Pixabay</a>
