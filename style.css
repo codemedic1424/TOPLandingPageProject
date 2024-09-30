@@ -14,12 +14,15 @@ body {
     display: flex;
     flex-direction: column;
     padding: 4px 170px;
+    padding-bottom: 10%;
 }
+
 .headerbar {
     /* border: 1px solid; */
     display: flex;
     margin-bottom: 70px;
 }
+
 .headerpanellinks {
     display: flex;
     gap: 40px; 
@@ -32,9 +35,11 @@ body {
 .headerpanel a {
     text-decoration: none;
 }
+
 .headerpanel li {
     list-style: none;
 }
+
 .headerpanel, 
 .footer {
     background-color: #1f2937;
@@ -46,8 +51,7 @@ body {
     margin-right: auto;
 }
 
-.headerpanel a, 
-.headerpanel h3 {
+.headerpanel a { 
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -60,15 +64,39 @@ body {
 
 .headerpanelcontent {
     display: flex;
+    flex-direction: row;
+    gap: 6px;
+    /* border: 1px solid white; */
 }
+
+.headerpaneltext {
+    /* border: 1px solid yellow; */
+    min-width: 50%;
+}
+
+.headerimage {
+    border: 2px solid yellow;
+    border-radius: 6px;
+}
+
 .headerimage img {
-    height: auto;
-    width: 25%;
+    height: 300px;
+    width: 500px;
+}
+
+.headerpanelcontent h3 {
+    font-size: 22px;
 }
 
 button, .actionbox {
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+.headerpanel button {
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin-top: 10px;
 }
 
 /* Info Panel Styling */
@@ -80,6 +108,7 @@ button, .actionbox {
     align-items: center;
     margin-top: 50px;
 }
+
 .infotitle h2 {
     font-size: 36px;
     color: #1f2937;
@@ -87,6 +116,7 @@ button, .actionbox {
     align-self: center;
     margin-bottom: 40px;
 }
+
 .infoboxes {
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +172,6 @@ button, .actionbox {
     margin-left: 300px;
 }
 
-
 /* Action Panel Styles */
 .actionpanel {
     display: flex;
@@ -175,6 +204,7 @@ button, .actionbox {
     font-size: 20px;
     text-decoration: underline 4px solid;
 }
+
 .text h6 {
     font-size: 16px;
 }
